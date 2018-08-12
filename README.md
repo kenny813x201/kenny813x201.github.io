@@ -1,5 +1,5 @@
 # Hello-World
 First repository
 
-HI! I am Kenny, from Taiwan!
-wdwdwdw
+HI! I am Kenny from Taiwan!
+
