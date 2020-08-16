@@ -120,6 +120,33 @@
     time: 1000
   });
 
+  // calculate word duration 1 yr 4 mos, 2 yr 1 mo
+  // Manualy update currnt job start date
+  $(window).on('load', function () {
+    const startDate = new Date(2019, 2, 18);
+    const curDate = new Date();
+    let year = curDate.getFullYear() - startDate.getFullYear();
+    let month = curDate.getMonth() - startDate.getMonth();
+    let ytStr = '';
+    let mthStr = ''
+    if (month === 1) {
+      mthStr = '1 mo'
+    } else if (month > 1) {
+      mthStr = `${month} mos`
+    } else {
+      year -= 1
+      month = 12 + month
+      mthStr = `${month} mos`
+    }
+    if (year === 1) {
+      ytStr = '1 yr'
+    } else if (year > 1) {
+      ytStr = `${year} yrs`
+    }
+    $('#lastest-duration').text(`${ytStr} ${mthStr}`);
+    console.log(`${ytStr} ${mthStr}`)
+  })
+
   // Skills section
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
