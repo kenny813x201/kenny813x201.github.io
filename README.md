@@ -1,5 +1,2 @@
-# Hello-World
-First repository
-
-HI! I am Kenny from Taiwan!
+https://kenny813x201.github.io/
 
