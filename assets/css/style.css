@@ -56,6 +56,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: background 0.2s ease-in-out;
 }
 
+.container {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -340,6 +345,14 @@ section {
   margin-bottom: 0;
 }
 
+.about-links {
+  padding: 0px 30px;
+}
+
+.about-links div {
+  padding: 5px;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -391,7 +404,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -434,6 +447,10 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
+}
+
+.resume-item-head img {
+  margin: 5px;
 }
 
 .resume .resume-item {
