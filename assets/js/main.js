@@ -133,6 +133,8 @@
       mthStr = '1 mo'
     } else if (month > 1) {
       mthStr = `${month} mos`
+    } else if (month === 0) {
+      mthStr = ""
     } else {
       year -= 1
       month = 12 + month

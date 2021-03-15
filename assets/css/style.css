@@ -453,6 +453,10 @@ section {
   margin: 5px;
 }
 
+.resume-block {
+  margin: auto;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
