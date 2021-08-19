@@ -123,7 +123,8 @@
   // calculate word duration 1 yr 4 mos, 2 yr 1 mo
   // Manualy update currnt job start date
   $(window).on('load', function () {
-    const startDate = new Date(2019, 2, 18);
+    // 0 index
+    const startDate = new Date(2021, 7, 15);
     const curDate = new Date();
     let year = curDate.getFullYear() - startDate.getFullYear();
     let month = curDate.getMonth() - startDate.getMonth();
